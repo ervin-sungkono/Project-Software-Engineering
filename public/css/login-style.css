@@ -1,0 +1,68 @@
+.content{
+    display: flex;
+    object-fit: contain;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.content .bg-image > img{
+    padding-top: 100px;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+}
+
+.content .whole-login-form-container .login-form .sub-login-form > button{
+    width: 100%;
+}
+
+.content .whole-login-form-container .login-form .sub-login-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.content .whole-login-form-container .login-form .sub-login-form .input-field > input{
+    width: 100%;
+}
+
+.content .whole-login-form-container{
+    width: 600px;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px -2px rgba(59, 73, 73, 0.15);
+}
+
+.content .whole-login-form-container .login-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 48px 0px 80px;
+    align-items: center;
+}
+
+#navbar .container .nav-menu.right .register-btn > a{
+    background-color: var(--aqua-blue);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    box-shadow: 0px 0px 16px rgba(46, 196, 182, 0.3);
+}
+
+.content .whole-login-form-container .login-form .teks-Atau{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.content .whole-login-form-container .login-form .teks-Atau > hr{
+    width: 100px;
+    height: 0;
+}
+

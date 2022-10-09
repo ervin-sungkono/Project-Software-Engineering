@@ -1,0 +1,146 @@
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Inter", sans-serif;
+}
+.product__detail--section {
+  margin-top: 40px;
+}
+
+.product__detail--section .back-button {
+  text-decoration: none;
+  color: var(--black);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-header h1.header-title {
+  font-family: "Playfair Display", serif;
+}
+
+.product-header .product-description p {
+  color: #3b4949b2;
+  line-height: 32px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 14px;
+  border: none;
+}
+
+.demo {
+  width: 100%;
+}
+.demo .lSPager.lSGallery {
+  margin-top: 32px;
+}
+.demo .lSPager.lSGallery li.active {
+  border: 3px solid var(--yellow);
+}
+.product__detail--section ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.product__card li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+.product__card img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.product__review .stars i {
+  color: var(--yellow);
+}
+
+.product__review .stars span {
+  font-size: 13px;
+}
+
+.product__review .product__review--info span.more {
+  margin-left: 32px;
+}
+.product__review a.another_review {
+  font-size: 20px;
+  color: var(--aqua-blue);
+  text-decoration: none;
+}
+
+.product__detail--section hr {
+  color: #d4d4d4;
+}
+
+.comment-card {
+  border: 1px solid rgba(59, 73, 73, 0.3);
+  border-radius: 12px;
+}
+
+.card__info p {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.card__info__place .card_border {
+  padding: 33.5px 51.75px;
+}
+
+.card__info__price {
+  width: 100%;
+  max-width: 320px;
+}
+.card__info__price h5 {
+  font-size: 32px;
+  font-weight: var(--semi-bold);
+}
+.card__info__price h5 span {
+  color: #3b4949b2;
+  font-size: 20px;
+  font-weight: normal;
+}
+.card__info__price .badge-ticket {
+  color: var(--green);
+}
+.card__info__price a.button-ticket {
+  color: var(--white);
+  font-size: 20px;
+  font-weight: var(--semi-bold);
+  padding: 12px 24px;
+  background: var(--yellow);
+  box-shadow: 0px 0px 16px rgba(255, 159, 28, 0.3);
+  border-radius: 8px;
+}
+
+.card__info__price a img {
+  margin-left: 20px;
+}
+
+
+@media (min-width: 1190px) and (max-width: 1480px) {
+  .card__info__place .card_border {
+    padding: 33.5px 5px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1189px) {
+
+  .card__info__place .card_border {
+    padding: 33.5px 10px;
+  }
+
+  .card__info__place .card_border > * {
+    flex-wrap: wrap;
+  }
+}
+

@@ -1,0 +1,89 @@
+.content{
+    display: flex;
+    object-fit: contain;
+}
+
+.content .bg-image > img{
+    padding-top: 100px;
+    height: 80vh;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+}
+
+.content .whole-login-form-container .login-form .sub-login-form > h1{
+    width: 342px;
+    height: 72px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;    
+}
+
+.content .whole-login-form-container .login-form .sub-login-form > button{
+    width: 80%;
+}
+
+.content .whole-login-form-container .login-form .sub-login-form {
+    width: 100%;
+    gap: 2rem;
+}
+
+.content .whole-login-form-container .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 558px;
+    height: 604px;
+}
+
+.content .whole-login-form-container{
+    width: 600px;
+    height: 100vh;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px -2px rgba(59, 73, 73, 0.15);
+}
+
+.content .whole-login-form-container .login-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 48px 0px 80px;
+    align-items: center;
+    gap: 1rem;
+}
+
+#navbar .container .nav-menu.right .login-btn > a{
+    background-color: var(--aqua-blue);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    box-shadow: 0px 0px 16px rgba(46, 196, 182, 0.3);
+}
+
+.baris-1, .baris-2, .baris-3{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.baris-1, .baris-2, .baris-3 .input-field > input{
+    width: 100%;
+}
+
+.content .whole-login-form-container .login-form .teks-Atau{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+.content .whole-login-form-container .login-form .teks-Atau > hr{
+    width: 100px;
+    height: 0;
+}

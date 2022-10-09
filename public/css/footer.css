@@ -1,0 +1,58 @@
+.footer-section .container{
+    padding-block: 4rem;
+    background-color: var(--black);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section .container .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-section .container .footer-content .contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-section .container .footer-content .contact-wrapper .contact{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--white);
+}
+
+.footer-section .container .footer-content .contact-wrapper .contact .contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footer-section .container .footer-content .contact-wrapper .contact .contact-details > h4{
+    font-size: 1.25rem;
+    font-weight: var(--semi-bold);
+}
+
+.footer-section .container .footer-content > h3{
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.footer-section .container .footer-content .footer-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section .container .footer-content .footer-details > a{
+    padding-block: 0.5rem;
+    color: var(--white);
+    transition: 0.3s color ease-in-out;
+}
+
+.footer-section .container .footer-content .footer-details > a:hover{
+    color: var(--yellow);
+}
